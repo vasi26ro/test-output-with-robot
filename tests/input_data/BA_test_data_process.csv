@@ -1,0 +1,18 @@
+*** Test Cases ***,${input_num},${type},${expected_stdout},${expected_stderr},[Documentation]
+T1,${13},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T2,${101},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T3,${-101},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T4,${13.0},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T5,${101.0},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T6,${-101.0},int,,Exception: System Error,Black-box testing - Boundary Value Analysis - Error Guessing
+T7,${-100},int,-0.1,,Black-box testing - Boundary Value Analysis - Error Guessing
+T8,${12},int,0.8333333333333334,,Black-box testing - Boundary Value Analysis - Error Guessing
+T9,${14},int,0.7142857142857143,,Black-box testing - Boundary Value Analysis - Error Guessing
+T10,${100.0},float,0.1,,Black-box testing - Boundary Value Analysis - Error Guessing
+T11,${-100.0},float,-0.1,,Black-box testing - Boundary Value Analysis - Error Guessing
+T12,${12.0},float,0.8333333333333334,,Black-box testing - Boundary Value Analysis - Error Guessing
+T13,${14.0},float,0.7142857142857143,,Black-box testing - Boundary Value Analysis - Error Guessing
+T14,${50.0},int,0.2,,Black-box testing - Equivalence Partitioning - Error Guessing
+T15,${-50.0},int,-0.2,,Black-box testing - Equivalence Partitioning - Error Guessing
+T16,${20.0},int,0.5,,Black-box testing - Equivalence Partitioning - Error Guessing
+T17,${10.0},int,1.0,,Black-box testing - Equivalence Partitioning - Error Guessing
